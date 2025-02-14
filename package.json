@@ -1,0 +1,20 @@
+{
+  "name": "wa-gateway",
+  "version": "1.0.0",
+  "description": "WhatsApp Gateway with QR Code",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "multer": "^1.4.5-lts.1",
+    "puppeteer": "^24.2.0",
+    "qrcode": "^1.5.4",
+    "rimraf": "^6.0.1",
+    "whatsapp-web.js": "^1.26.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
